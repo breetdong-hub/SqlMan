@@ -1,4 +1,4 @@
-name: Release Lifesaver
+name: Release SqlMan
 
 on:
   workflow_dispatch:
@@ -61,7 +61,7 @@ jobs:
         with:
           projectPath: .
           tagName: v__VERSION__
-          releaseName: 'Lifesaver v__VERSION__'
+          releaseName: 'SqlMan v__VERSION__'
           releaseBody: |
             从表格/文本中提取整数，支持逗号分隔或带单引号的数组格式。
 

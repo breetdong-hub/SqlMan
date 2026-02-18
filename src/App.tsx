@@ -193,7 +193,7 @@ function App() {
       <div className="header">
         <div className="headerBrand">
           <LifesaverLogo />
-          <span className="headerTitle">Lifesaver</span>
+          <span className="headerTitle">SqlMan</span>
         </div>
         <div className="headerMeta">
           {(lifeSavedMinutes > 0 || totalLifeSavedText) ? (

@@ -5,7 +5,7 @@ import { useLocalStorageState } from '../hooks/useLocalStorageState'
 import type { HistoryItem } from './types'
 
 const KEY = 'number-extractor:history:v1'
-const MAX = 50
+const MAX = 500
 
 function newId(): string {
   if (globalThis.crypto?.randomUUID) return globalThis.crypto.randomUUID()
